@@ -1,0 +1,73 @@
+/* change brand name font*/
+.navbar-brand
+{
+font-family: 'Ubuntu', sans-serif;
+font-size: 2em;
+font-weight: bold;
+}
+
+/* chnage nav item color*/
+.navbar #myMenu .custom-nav .nav-item a
+{
+    color: #ffffff;
+}
+
+/* chnage nav item color on hover*/
+.navbar #myMenu .custom-nav .nav-item a:hover
+{
+    color: #f0aab1;
+}
+
+/*Meke header image respomsive*/
+.back-image
+{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    border-radius: 0px;
+    margin-top: 74px;
+}
+/*Headeer image subtitle*/
+.font-italic
+{
+    font-size: 24px;
+}
+
+/*Margin for welcome to OSMS*/
+.mainHeading
+{
+    margin: 50px;
+}
+
+/**/
+@media only screen and (max-width:600px)
+{
+    .myClass
+    {
+        margin-top: 300px;
+        text-align: center;
+    }
+}
+
+.f1
+{
+    color:#dc3545;
+}
+.fi-color:hover
+{
+    color:#e994a2;
+}
+a
+{
+    color: black;
+}
+.active
+{
+    color: white;
+    background-color: #dc3545;
+}
+a:hover
+{
+    color: #f26571;
+}
